@@ -21,7 +21,7 @@ This is intended to be used as a template repository for django projects running
 #### Database settings change to your select DB
 Go to your settings.py inside the project folder created in previous steps and modify it accordingly your database settings. Here an example:
 
-`
+```
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -32,7 +32,7 @@ DATABASES = {
         'PORT': 3306,
     }
 }
-`
+```
 
 #### then create your own pages with 
 
