@@ -18,7 +18,7 @@ services:
       - "3306:3306"
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: uwsgi --socket :8000 --wsgi-file manage.py
     volumes:
       - .:/code
     ports:
