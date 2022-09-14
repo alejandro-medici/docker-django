@@ -51,3 +51,7 @@ DATABASES = {
 #### and finally just docker-compose up
 
 `docker-compose up`
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
